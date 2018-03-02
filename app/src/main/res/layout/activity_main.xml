@@ -7,8 +7,11 @@
     tools:context="guerra.tecsup.wwww.lab03_android.MainActivity">
 
     <TextView
+        android:id="@+id/my_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="8dp"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
